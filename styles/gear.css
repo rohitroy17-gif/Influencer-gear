@@ -13,10 +13,6 @@ body{
 header{
    width: 100%;
 }
-.head-content{
-
-
-}
 .head{
     padding-top: 10px;
     padding-right: 300px;
@@ -37,7 +33,11 @@ nav{
     display: flex;
     padding: 10px;
 }
-.ic{
+.ic-1{
+    width: 36px;
+    height: 36px;
+}
+.ic-2{
     width: 36px;
     height: 36px;
 }
@@ -193,4 +193,141 @@ nav{
 
 .social-icons a:hover {
   color: #1da1f2; /* Twitter blue on hover */
+}
+
+/* Responsive Design for Small Devices */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .list-link,.ic-1{
+        visibility: hidden;
+    }
+    /*nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    .items {
+        flex-direction: column;
+        padding-left: 0;
+        gap: 10px;
+    }*/
+
+header h3{
+     padding-left: 300px;
+}
+nav{
+     padding: 10px;
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;   
+}
+.list-item{
+    padding: 10px;
+}
+.list-link{
+    text-decoration: none;
+    color: black;
+}
+.ic-2{
+ padding-right: 800px;
+}
+
+    .ic-1, .ic-2 {
+        width: 24px;
+        height: 24px;
+        padding-left: 500px;
+    }
+
+    .display {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .journey {
+        padding-left: 0;
+        text-align: center;
+        height: auto;
+    }
+
+    .influence {
+        font-size: 32px;
+    }
+
+    .camera {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .box {
+        padding-left: 0;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .display-pop {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .pop-collection {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .pop-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .collection {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .see {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .feature {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        margin-top: 3500px;
+    }
+
+    .place {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .fe-font {
+        font-size: 28px;
+    }
+
+    .footer {
+        padding: 30px 10px;
+        margin-top: 100px;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
 }
