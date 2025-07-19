@@ -1,0 +1,196 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    background-color: rgb(246, 245, 245) ;
+    width: 1410px;
+}
+header{
+   width: 100%;
+}
+.head-content{
+
+
+}
+.head{
+    padding-top: 10px;
+    padding-right: 300px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.list-item{
+    padding: 10px;
+}
+.list-link{
+    text-decoration: none;
+    color: black;
+}
+.items{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+.ic{
+    width: 36px;
+    height: 36px;
+}
+.journey{
+    max-width: 582px;
+    height: 270px;
+    padding-left: 140px;
+}
+.influence{
+    max-width: 582px;
+    height: 133px;
+    font-size: 52px;
+}
+.p-font{
+    font-size: 16px;
+    max-width: 505px;
+    height: 61px;
+}
+.ic-2{
+    max-width: 15px;
+    height: 15px;
+}
+.btn-1{
+    max-width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    border: none;
+}
+.camera{
+    background-image: url('../images/Circle\ design.svg');
+   padding-left: 100px;
+}
+.display{
+    display: flex;
+}
+.logo{
+    margin-top: 70px;
+}
+.box{
+    max-width: 1140px;
+    height: 80px;
+    padding: 10px;
+    padding-left: 200px;
+}
+.box-item{
+    padding: 20px;
+}
+.collection{
+    font-size: 28px;
+    text-align: center;
+}
+.star{
+    display: flex;
+    width: 122px;
+    height: 32px;
+    gap: 5px;
+    align-items: center;
+}
+.collection-p{
+    width: 176px;
+    height: 61px;
+    font-size: 14px;
+}
+.div{
+    margin-left: 10px;
+}
+.pop-img{
+    width: 300px;
+    height: 256px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.pop-collection{
+    width: 329px;
+    height: 496px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.display-pop{
+    display: flex;
+    gap: 30px;
+    padding-left: 160px;
+    padding-bottom: 30px;
+}
+.work{
+    width: 1047;
+    height: 1622px;
+}
+.see{
+    padding-left: 1140px;
+}
+.list-link-2{
+    text-decoration: none;
+    color: #E02C6D;
+}
+.feature{
+    padding-top: 70px;
+    display: flex;
+    width: 1110px;
+    height: 270px;
+    justify-content: center;
+    padding-left: 125px;
+    padding-bottom: 50px;
+}
+.fe-font{
+    font-size: 38px;
+}
+.place{
+    width: 610px;
+    height: 224px;
+    padding-left: 30px;
+}
+.btn-2{
+    max-width: 220px;
+    height: 54px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+}
+.footer {
+  padding: 40px 20px;
+  background-color: #0f0c29;
+  text-align: center;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Twitter blue on hover */
+}
