@@ -197,7 +197,7 @@ nav{
   color: #1da1f2; /* Twitter blue on hover */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 578px) {
   body {
     width: 100%;
     margin: 0;
