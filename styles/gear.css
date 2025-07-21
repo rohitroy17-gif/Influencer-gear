@@ -9,6 +9,7 @@
 body{
     background-color: rgb(246, 245, 245) ;
     width: 1410px;
+    margin: auto;
 }
 header{
    width: 100%;
@@ -128,12 +129,13 @@ nav{
     width: 1047;
     height: 1622px;
 }
-.see{
+/*.see{
     padding-left: 1140px;
-}
+}*/
 .list-link-2{
     text-decoration: none;
     color: #E02C6D;
+    padding-left: 1140px;
 }
 .feature{
     padding-top: 70px;
@@ -195,4 +197,83 @@ nav{
   color: #1da1f2; /* Twitter blue on hover */
 }
 
-
+@media screen and (max-width:576px) {
+    body{
+        width: 576px;
+    }
+    .list-link {
+        visibility: hidden;
+    }
+    .head{
+         padding-left: 280px;
+    }
+    nav{
+        width: 576px;
+        padding-right: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+    .display{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px
+    }
+    .influence{
+        padding-left: 70px;
+    }
+    .p-font{
+        padding-top: 100px;
+        padding-left: 40px;
+    }
+    .btn-head{
+        padding-top: 50px;
+        padding-left: 150px;
+    }
+    .logo{
+        padding-top: 150px;
+        padding-left: 60px ;
+    }
+    .box{
+        padding: 5px;
+    }
+    .collection{
+        padding-top: 250px;
+        padding-left: 80px;
+    }
+    .display-pop{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .list-link-2{
+        padding-left: 400px;
+    }
+    .feature{
+        padding-top: 3900px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 150px;
+    }
+    .feature p{
+        width: 350px;
+    }
+    .place{
+        justify-content: center;
+        text-align: center;
+    }
+    .med-but{
+        padding-right: 250px;
+    }
+    .fe-font{
+        padding-right: 250px;
+    }
+    .footer{
+        margin-top: 300px;
+        width: 576px;
+    }
+}
