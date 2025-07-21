@@ -197,83 +197,140 @@ nav{
   color: #1da1f2; /* Twitter blue on hover */
 }
 
-@media screen and (max-width:576px) {
-    body{
-        width: 576px;
-    }
-    .list-link {
-        visibility: hidden;
-    }
-    .head{
-         padding-left: 280px;
-    }
-    nav{
-        width: 576px;
-        padding-right: 400px;
-        margin: auto;
-        display: grid;
-        grid-template-rows: repeat(2,1fr);
-    }
-    .display{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 100px
-    }
-    .influence{
-        padding-left: 70px;
-    }
-    .p-font{
-        padding-top: 100px;
-        padding-left: 40px;
-    }
-    .btn-head{
-        padding-top: 50px;
-        padding-left: 150px;
-    }
-    .logo{
-        padding-top: 150px;
-        padding-left: 60px ;
-    }
-    .box{
-        padding: 5px;
-    }
-    .collection{
-        padding-top: 250px;
-        padding-left: 80px;
-    }
-    .display-pop{
-        padding-top: 50px;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .list-link-2{
-        padding-left: 400px;
-    }
-    .feature{
-        padding-top: 3900px;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 150px;
-    }
-    .feature p{
-        width: 350px;
-    }
-    .place{
-        justify-content: center;
-        text-align: center;
-    }
-    .med-but{
-        padding-right: 250px;
-    }
-    .fe-font{
-        padding-right: 250px;
-    }
-    .footer{
-        margin-top: 300px;
-        width: 576px;
-    }
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .items {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  .display {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .journey {
+    padding-left: 0;
+    height: auto;
+  }
+
+  .influence {
+    font-size: 32px;
+    height: auto;
+  }
+
+  .p-font {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .btn-head {
+    margin: 10px auto;
+  }
+
+  .camera {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .box {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+  }
+.collection{
+     padding-top: 150px;
+}
+  .display-pop {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 5px;
+    
+  }
+
+  .pop-collection {
+    width: 100%;
+    height: auto;
+  }
+
+  .pop-img {
+    width: 90%;
+    height: auto;
+  }
+
+  .work {
+    width: 100%;
+    height: auto;
+  }
+
+  .list-link-2 {
+    padding-left: 0;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    display: flex;
+    flex-direction: column-reverse;
+    gap:150px;
+  }
+
+  .place {
+    width: 90%;
+    padding-left: 0;
+  }
+
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer h3 {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .ic-1, .ic-2 {
+    width: 20px;
+    height: 20px;
+  }
 }
